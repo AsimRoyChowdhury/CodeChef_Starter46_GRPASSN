@@ -31,7 +31,7 @@ class CodeChefCC {
 			}
 		}
 		for(int i=0 ; i<arrli.size(); i++){
-			if(arrli.get(i) == newarr[i]){
+			if(newarr[i]%arrli.get(i) == 0){
 				approve = true;
 			}
 			else {
